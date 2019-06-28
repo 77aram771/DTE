@@ -7,10 +7,12 @@
     "fomantic-ui-css": "^2.7.6",
     "lodash": "^4.17.11",
     "react": "^16.8.6",
+    "react-alice-carousel": "^1.15.1",
     "react-dom": "^16.8.6",
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
+    "semantic-ui-carousel-react": "^1.0.4",
     "semantic-ui-react": "^0.87.2"
   },
   "scripts": {
