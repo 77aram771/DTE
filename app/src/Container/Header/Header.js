@@ -13,7 +13,7 @@ const ButtonColor_2 = '#fb6c86';
 
 const styles = {
     header: {
-        margin: '60px 0 200px 0',
+        margin: '60px 0 100px 0',
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
@@ -49,12 +49,10 @@ const styles = {
         alignItems: 'center'
     },
     titleDiv: {
-        margin: '165px 0px 125px 0',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
-
     },
 
 };

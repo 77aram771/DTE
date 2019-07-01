@@ -40,3 +40,12 @@ input::placeholder {
   color: white;
 }
 
+.title {
+  margin: 100px 0
+}
+
+svg {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}

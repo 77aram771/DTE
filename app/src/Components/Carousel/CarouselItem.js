@@ -6,6 +6,7 @@ function CarouselItem({text, color, icon, title}) {
 
     const styles = {
             itemBox: {
+                margin: '0 0 200px 0',
                 width: "420px",
                 height: "403px",
                 boxShadow: "0 24px 80px rgba(22, 28, 37, 0.16), 0 12px 16px rgba(22, 28, 37, 0.04)",

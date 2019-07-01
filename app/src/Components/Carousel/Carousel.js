@@ -19,7 +19,7 @@ const styles = {
         justifyContent: 'center',
         alignItems: 'center',
         position: "absolute",
-        top: 50 + "%",
+        top: 27 + "%",
         left: -40 + "px",
         bottom: 0,
         right: 0,
@@ -34,7 +34,7 @@ const styles = {
         justifyContent: 'center',
         alignItems: 'center',
         position: "absolute",
-        top: 50 + "%",
+        top: 28 + "%",
         left: 98 + "%",
         bottom: 0,
         right: 0,
@@ -44,9 +44,8 @@ const styles = {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        margin: "150px 0 0 0",
     }
-}
+};
 
 function Carousels() {
     const [images, setImages] = useState([
