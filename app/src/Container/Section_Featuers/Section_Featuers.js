@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from "../../Components/Title/Title";
-import Card_Charts from "../../Components/Card_Charts";
+import Card_Charts from "../../Components/Card_Charts/Card_Charts";
 import Card_Info from "../../Components/Card_Info/Card_Info";
 
 const styles = {
@@ -34,56 +34,64 @@ function Section_Features() {
                     title={`Ethash`}
                     number={`2.25`}
                     measurementUnit={`TH/s`}
-                    LineColor={`#5e3a4f`}
-                    BackColor={`#262635`}
+                    LineColor={`#ff6d87`}
+                    BackColor={`#2b2836`}
                     color1={`#5e3a4f`}
                     color2={`#262635`}
+                    dataNumber={[15, 11, 15, 17, 16, 23, 20]}
                 />
                 <Card_Charts
                     title={`Ethash`}
                     number={`2.25`}
                     measurementUnit={`TH/s`}
-                    LineColor={`#333454`}
-                    BackColor={`#2f3454`}
+                    LineColor={`#6b52a8`}
+                    BackColor={`#38365c`}
                     color1={`#333454`}
                     color2={`#2f3454`}
+                    dataNumber={[65, 59, 63, 51, 60, 64, 65]}
                 />
                 <Card_Charts
                     title={`Ethash`}
                     number={`2.25`}
                     measurementUnit={`TH/s`}
-                    LineColor={``}
-                    BackColor={``}
-                    color1={``}
-                    color2={``}
-                />
-                <Card_Charts
-                    title={`Ethash`}
-                    number={`2.25`}
-                    measurementUnit={`TH/s`}
-                    LineColor={`#243243`}
-                    BackColor={`#3b4278`}
+                    LineColor={`#4a73a5`}
+                    BackColor={`#4a539e`}
                     color1={`#243243`}
                     color2={`#3b4278`}
+                    dataNumber={[45, 50, 51, 45, 41, 43, 45]}
                 />
                 <Card_Charts
                     title={`Ethash`}
                     number={`2.25`}
                     measurementUnit={`TH/s`}
-                    LineColor={``}
-                    BackColor={``}
-                    color1={``}
-                    color2={``}
-                />
-                <Card_Charts
-                    title={`Ethash`}
-                    number={`2.25`}
-                    measurementUnit={`TH/s`}
-                    LineColor={`#4c6d47`}
-                    BackColor={`#2b3532`}
-                    color1={`#4c6d47`}
+                    LineColor={`#59814f`}
+                    BackColor={`#363c35`}
+                    color1={`#343d35`}
                     color2={`#2b3532`}
+                    dataNumber={[65, 59, 80, 81, 60, 64, 65]}
                 />
+                <Card_Charts
+                    title={`Ethash`}
+                    number={`2.25`}
+                    measurementUnit={`TH/s`}
+                    LineColor={`#6b4741`}
+                    BackColor={`#a95e59`}
+                    color1={`#3f2f36`}
+                    color2={`#3f3035`}
+                    dataNumber={[65, 59, 80, 81, 60, 64, 65]}
+                />
+
+                <Card_Charts
+                    title={`Ethash`}
+                    number={`2.25`}
+                    measurementUnit={`TH/s`}
+                    LineColor={`#497e79`}
+                    BackColor={`#3d6574`}
+                    color1={`#293f41`}
+                    color2={`#16364b`}
+                    dataNumber={[65, 59, 80, 81, 60, 64, 65]}
+                />
+
                 <Card_Info
                     text1={`Regular payouts`}
                     text2={`every 2 hors`}
@@ -96,10 +104,11 @@ function Section_Features() {
                     title={`Ethash`}
                     number={`2.25`}
                     measurementUnit={`TH/s`}
-                    LineColor={'#362d31'}
-                    BackColor={'#27262d'}
-                    color1={'#362d31'}
-                    color2={'#27262d'}
+                    LineColor={'#0787c2'}
+                    BackColor={'#134061'}
+                    color1={'#16374b'}
+                    color2={'#16344b'}
+                    dataNumber={[65, 59, 80, 81, 60, 64, 65]}
                 />
                 <Card_Info
                     text1={`Paid to miners`}

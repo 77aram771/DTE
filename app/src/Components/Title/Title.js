@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Title({h1, text1, text2, text3, color, fontSize_h1, fontSize_h2, }) {
+function Title({h1, text1, text2, text3, color, fontSize_h1, fontSize_h2, self }) {
     const styles = {
         h1: {
             opacity: 0.44,
@@ -27,13 +27,12 @@ function Title({h1, text1, text2, text3, color, fontSize_h1, fontSize_h2, }) {
             position: "relative",
             zIndex: 200,
             margin: "0 10px",
-
         },
         textDiv: {
             width: "100%",
             height: "100%",
             display: 'flex',
-            justifyContent: 'center',
+            justifyContent: self,
             alignItems: 'center',
             zIndex: 200,
         },

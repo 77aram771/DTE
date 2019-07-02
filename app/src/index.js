@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter} from 'react-router-dom';
+import {Route, BrowserRouter, Switch} from 'react-router-dom'
 import './index.css'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Splash_Screen from "./Components/Splash_Screen/Splash_Screen";
+
+
 
 ReactDOM.render(
     <BrowserRouter>
-        <App/>
+        <Switch>
+            {/*<Route exact component={Splash_Screen}/>*/}
+            <Route path="/" component={App}/>
+        </Switch>
     </BrowserRouter>
 
     , document.getElementById('root'));

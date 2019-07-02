@@ -63,6 +63,7 @@ function Headers() {
             <div style={{width: 100 + '%', display: 'flex', justifyContent: 'space-between'}}>
                 <div style={styles.searchDiv}>
                     <div style={{marginRight: 25}}>
+
                         <Logo/>
                     </div>
                     <div>
@@ -78,7 +79,8 @@ function Headers() {
             </div>
 
             <div style={styles.titleDiv}>
-                <Title h1={`SHARDPOOL`} text1={`Ziliqa`} text2={`Mining`} text3={`Shardpool`} color='#fff' fontSize_h1={`124px`} fontSize_h2={`70px`}/>
+                <Title h1={`SHARDPOOL`} text1={`Ziliqa`} text2={`Mining`} text3={`Shardpool`} color='#fff'
+                       fontSize_h1={`124px`} fontSize_h2={`70px`}/>
 
             </div>
 

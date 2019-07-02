@@ -2,20 +2,19 @@ import React from 'react';
 
 const styles = {
     chartBox: {
-        width: "350px",
+        width: "315px",
         height: "516px",
         border: '1px solid #454e5c',
         display: "flex",
         flexDirection: "column",
         justifyContent: "flex-start",
         boxShadow: "0 24px 40px rgba(22, 28, 37, 0.11), 0 12px 32px rgba(22, 28, 37, 0.04)",
-        backgroundColor: "#212734",
     },
     textDiv: {
         padding: "0 0 0 30px",
         width: '100%',
         height: '140px',
-        border: '1px solid #454e5c',
+        borderBottom: '1px solid #454e5c',
         display: 'flex',
         justifyContent: 'space-evenly',
         alignItems: 'flex-start',

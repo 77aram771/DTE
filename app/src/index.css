@@ -40,6 +40,10 @@ input::placeholder {
   color: white;
 }
 
+.ui.input.focus > input, .ui.input > input:focus {
+  color: white !important;
+}
+
 .title {
   margin: 100px 0
 }
@@ -48,4 +52,21 @@ svg {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+}
+
+.CardItem:hover {
+  background-color: #212734;
+  padding: unset !important;
+  /*transition: all ease-in 0.05s;*/
+}
+
+/*.CardItem:first-child:hover {*/
+/*  padding: 30px;*/
+/*}*/
+
+.CardItem:hover  .chartjs-render-monitor{
+  width: 313px !important;
+}
+.CardItem:hover  .chartBox_text{
+  padding: 30px 0 0 30px;
 }

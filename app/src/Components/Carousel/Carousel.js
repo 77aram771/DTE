@@ -1,4 +1,7 @@
 import React, {useState} from 'react';
+import Coverflow from 'react-coverflow';
+import {StyleRoot} from 'radium';
+
 import CarouselItem from "./CarouselItem";
 import {Icon, Image} from 'semantic-ui-react'
 
@@ -94,3 +97,32 @@ function Carousels() {
 };
 
 export default Carousels;
+
+// function Carousels() {
+//     return (
+//         <StyleRoot>
+//             <Coverflow
+//                 displayQuantityOfSide={2}
+//                 navigation
+//                 infiniteScroll
+//                 enableHeading
+//                 media={{
+//                     '@media (max-width: 900px)': {
+//                         width: '600px',
+//                         height: '300px'
+//                     },
+//                     '@media (min-width: 900px)': {
+//                         width: '960px',
+//                         height: '600px'
+//                     }
+//                 }}
+//             >
+//                 <CarouselItem text={`Hashrate`} title={`37.2 T/Hs`} color={`#fb6c86`} icon={icon_1}/>
+//                 <CarouselItem text={`Active Miners`} title={`60454`} color={`#737aff`} icon={icon_2}/>
+//                 <CarouselItem text={`Workers`} title={`23975`} color={`#7cf1ab`} icon={icon_3}/>
+//             </Coverflow>
+//         </StyleRoot>
+//     )
+// }
+//
+// export default Carousels;
