@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Title({h1, text1, text2, text3, color, fontSize_h1, fontSize_h2, self }) {
+function Title({h1, text1, text2, text3, color, fontSize_h1, fontSize_h2, self}) {
     const styles = {
         h1: {
             opacity: 0.44,
@@ -38,7 +38,7 @@ function Title({h1, text1, text2, text3, color, fontSize_h1, fontSize_h2, self }
         },
         flex: {
             display: 'flex',
-            justifyContent: 'center',
+            justifyContent: self,
             alignItems: 'center'
         }
     };

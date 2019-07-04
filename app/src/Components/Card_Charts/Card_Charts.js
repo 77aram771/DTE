@@ -11,10 +11,14 @@ function Card_Charts({
                          color1,
                          color2,
                          dataNumber,
+                         position,
+                         borderTopNumber,
+                         borderBottomNumber,
+                         borderLeftNumber,
+                         borderRightNumber,
                      }) {
 
     const [count, setCount] = useState(0);
-    console.log(count)
     const data = (canvas) => {
         const ctx = canvas.getContext("2d");
         const gradient = ctx.createLinearGradient(0, 10, 1000, 20);
@@ -42,11 +46,14 @@ function Card_Charts({
             padding: '30px',
             width: '315px',
             height: "516px",
-            border: '1px solid #454e5c',
+            borderTop: `${borderTopNumber} solid rgba(255, 255, 255, 0.2)`,
+            borderBottom: `${borderBottomNumber} solid rgba(255, 255, 255, 0.2)`,
+            borderRight: `${borderLeftNumber} solid rgba(255, 255, 255, 0.2)`,
+            borderLeft: `${borderRightNumber} solid rgba(255, 255, 255, 0.2)`,
             display: "flex",
             flexDirection: "column",
             justifyContent: "space-between",
-            boxShadow: "0 24px 40px rgba(22, 28, 37, 0.11), 0 12px 32px rgba(22, 28, 37, 0.04)",
+            position: position,
         },
         title: {
             margin: '0 0 25px 0',
@@ -81,7 +88,7 @@ function Card_Charts({
         <div
             style={styles.chartBox}
             className='CardItem'
-            >
+        >
             <div className='chartBox_text'>
                 <p style={styles.title}>{title}</p>
                 <span style={styles.number}>{number}</span><b style={styles.measurementUnit}>{measurementUnit}</b>
@@ -91,7 +98,6 @@ function Card_Charts({
                  onMouseLeave={() => setCount(253)}>
                 <Line
                     data={data}
-                    // width={count}
                     height={300}
                     options={{
                         maintainAspectRatio: false,

@@ -21,6 +21,7 @@ function Section_Status() {
                 color={`#fff`}
                 fontSize_h1={`120px`}
                 fontSize_h2={`64px`}
+                self={`center`}
             />
             <Carousels/>
         </div>

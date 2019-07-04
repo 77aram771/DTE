@@ -9,7 +9,6 @@ function CarouselItem({text, color, icon, title}) {
                 margin: '0 0 200px 0',
                 width: "420px",
                 height: "403px",
-                boxShadow: "0 24px 80px rgba(22, 28, 37, 0.16), 0 12px 16px rgba(22, 28, 37, 0.04)",
                 borderRadius: "13px",
                 border: "2px solid rgba(3, 169, 244, 0.1)",
                 backgroundImage: "linear-gradient(45deg, #222836 0%, #313744 100%)",
@@ -22,7 +21,6 @@ function CarouselItem({text, color, icon, title}) {
             itemIcon: {
                 width: "96px",
                 height: "96px",
-                boxShadow: "inset 0 -1px 43px rgba(26, 32, 41, 0.5)",
                 borderRadius: "48px",
                 border: `3px solid ${color}`,
                 backgroundColor: "#2b303e",
