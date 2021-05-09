@@ -6,7 +6,7 @@
     "chart.js": "^2.8.0",
     "fomantic-ui": "^2.7.6",
     "fomantic-ui-css": "^2.7.6",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "react": "^16.8.6",
     "react-alice-carousel": "^1.15.1",
     "react-chartjs-2": "^2.7.6",
